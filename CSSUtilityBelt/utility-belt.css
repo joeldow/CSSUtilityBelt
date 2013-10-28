@@ -1,0 +1,172 @@
+﻿/*
+CSS Utility Belt
+Created by Joel Dow
+Free for general use
+    
+    
+*/
+
+/* ==========================================================================
+   Positioning
+   ========================================================================== */
+.absolute { position:absolute;}
+.relative { position:relative;}
+.fixed { position:fixed;}
+.static { position:static;}
+
+/* ==========================================================================
+   Font Colors
+   ========================================================================== */
+.color-white { color:white; }
+.color-black { color:black; }
+.color-gray { color:gray; }
+.color-red { color:red; }
+.color-orange {color:orange;}
+.color-yellow { color:yellow; }
+.color-green {color:green;}
+.color-blue {color:blue;}
+
+.color-aaa { color:#aaa; }
+.color-bbb { color:#bbb; }
+.color-ccc { color:#ccc; }
+.color-ddd { color:#ddd; }
+.color-eee { color:#eee; }
+.color-fff { color:#fff; }
+
+.color-7c7c7c { color:#7c7c7c; }
+.color-2b2b2b { color:#2b2b2b; }
+.color-353535 { color:#353535; }
+
+/* ==========================================================================
+   Background
+   ========================================================================== */
+.bg-white { background-color:white; }
+.bg-black { background-color:black; }
+.bg-gray { background-color:gray; }
+.bg-red { background-color:red; }
+.bg-orange { background-color:orange;}
+.bg-yellow { background-color:yellow; }
+.bg-green { background-color:green;}
+.bg-blue { background-color:blue;}
+
+.bg-aaa { background-color:#aaa; }
+.bg-bbb { background-color:#bbb; }
+.bg-ccc { background-color:#ccc; }
+.bg-ddd { background-color:#ddd; }
+.bg-eee { background-color:#eee; }
+.bg-fff { background-color:#fff; }
+
+.bg-7c7c7c { background-color:#7c7c7c; }
+.bg-2b2b2b { background-color:#2b2b2b; }
+.bg-353535 { background-color:#353535; }
+
+/* ==========================================================================
+   Padding and Margin
+   ========================================================================== */
+.pad-0 { padding:0px; }
+.pad-5 { padding:5px; }
+.pad-10 { padding:10px; }
+.pad-15 { padding:15px; }
+.pad-20 { padding:20px; }
+.pad-25 { padding:25px; }
+.pad-30 { padding:30px; }
+.pad-35 { padding:35px; }
+.pad-40 { padding:40px; }
+.pad-45 { padding:45px; }
+.pad-50 { padding:50px; }
+.pad-55 { padding:55px; }
+.pad-60 { padding:60px; }
+.pad-65 { padding:65px; }
+.pad-70 { padding:70px; }
+.pad-75 { padding:75px; }
+.pad-80 { padding:80px; }
+.pad-85 { padding:85px; }
+.pad-90 { padding:90px; }
+.pad-95 { padding:95px; }
+.pad-100 { padding:100px; }
+
+.pad-top-0 { padding:0px; }
+.pad-5 { padding:5px; }
+.pad-10 { padding:10px; }
+.pad-15 { padding:15px; }
+.pad-20 { padding:20px; }
+.pad-25 { padding:25px; }
+.pad-30 { padding:30px; }
+.pad-35 { padding:35px; }
+.pad-40 { padding:40px; }
+.pad-45 { padding:45px; }
+.pad-50 { padding:50px; }
+.pad-55 { padding:55px; }
+.pad-60 { padding:60px; }
+.pad-65 { padding:65px; }
+.pad-70 { padding:70px; }
+.pad-75 { padding:75px; }
+.pad-80 { padding:80px; }
+.pad-85 { padding:85px; }
+.pad-90 { padding:90px; }
+.pad-95 { padding:95px; }
+.pad-100 { padding:100px; }
+
+
+.pad-left-30 { padding-left:30px;}
+.pad-left-40 { padding-left:40px;}
+.pad-left-50 { padding-left:50px;}
+.pad-left-60 { padding-left:60px;}
+.pad-left-70 { padding-left:70px;}
+.pad-left-80 { padding-left:80px;}
+.pad-left-90 { padding-left:90px;}
+.pad-left-100 { padding-left:100px;}
+
+.margin-0 {margin:0;}
+.margin-left-20{margin-left:20px;}
+
+.bold { font-weight:bold; }
+.normal { font-weight:normal; }
+.ucase { text-transform:uppercase; }
+.lcase { text-transform:lowercase; }
+.text-center, .text-align-center { text-align:center; }
+.text-left, .text-align-left { text-align:left; }
+.text-right, .text-align-right { text-align:right; }
+.italic{ font-style:italic; }
+
+/* ==========================================================================
+   Font Sizing
+   ========================================================================== */
+.em4 { font-size:4em; }
+.em3 { font-size:3em; }
+.em2 { font-size:2em; }
+.em1p5 { font-size:1.5em; }
+.em1 { font-size:1em; }
+.p9em { font-size:.9em; }
+.p8em { font-size:.8em; }
+.p7em { font-size:.7em; }
+.p6em { font-size:.6em; }
+.p5em { font-size:.5em; }
+
+.clear { clear:left; }
+.hide { display:none;}
+
+.z-0 { z-index:0; }
+.z-10 { z-index:10;}
+.z-20 { z-index:20;}
+.z-max { z-index:9999;}
+
+/* ==========================================================================
+   Rounded corners
+   ========================================================================== */
+.rounded-bottom-5 { 
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.rounded-bottom-10 { 
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
