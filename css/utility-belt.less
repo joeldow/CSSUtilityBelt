@@ -187,6 +187,13 @@ Free for general use
 /* ==========================================================================
    Rounded corners
    ========================================================================== */
+.rounded-corners (@radius: 5px) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  -ms-border-radius: @radius;
+  -o-border-radius: @radius;
+  border-radius: @radius;
+}
 /*.rounded-5 (@radius: 5px) {
   -webkit-border-radius: @radius;
   -moz-border-radius: @radius;
@@ -195,13 +202,7 @@ Free for general use
   border-radius: @radius;
 }
 
-.rounded-corners (@radius: 5px) {
-  -webkit-border-radius: @radius;
-  -moz-border-radius: @radius;
-  -ms-border-radius: @radius;
-  -o-border-radius: @radius;
-  border-radius: @radius;
-}
+
 .rounded-10 (@radius: 5px) {
   -webkit-border-radius: @radius;
   -moz-border-radius: @radius;
